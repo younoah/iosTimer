@@ -30,7 +30,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="ButtonStopAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NK6-12-Ayg"/>
+                                            <action selector="buttonStopAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NK6-12-Ayg"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IKH-Ek-Y4Q">
@@ -44,7 +44,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="ButtonReStartAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GbE-go-Dp3"/>
+                                            <action selector="buttonReStartAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GbE-go-Dp3"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yxq-lO-rCb">
@@ -58,7 +58,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="ButtonStartAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ER3-TG-ieH"/>
+                                            <action selector="buttonStartAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ER3-TG-ieH"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yby-NK-OQj">
@@ -67,7 +67,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="ButtonTimeSetAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="91t-tw-HL5"/>
+                                            <action selector="buttonTimeSetAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="91t-tw-HL5"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="빡공률 : 0.0%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OJp-72-IBS">
@@ -148,7 +148,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="ButtonReSetAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w2u-Lw-Sn7"/>
+                                            <action selector="buttonReSetAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w2u-Lw-Sn7"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -189,13 +189,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="ButtonReStartOutlet" destination="IKH-Ek-Y4Q" id="QWx-d7-QpE"/>
-                        <outlet property="ButtonStartOutlet" destination="yxq-lO-rCb" id="7F7-hc-LUZ"/>
-                        <outlet property="ButtonStopOutlet" destination="4xv-4I-jfC" id="1lR-7g-2dE"/>
-                        <outlet property="LabelAllTime" destination="Sei-eA-lbW" id="iAW-BB-fxB"/>
-                        <outlet property="LabelPersent" destination="OJp-72-IBS" id="aSu-ER-uMt"/>
-                        <outlet property="LabelSumTime" destination="DcU-cF-UqF" id="d7d-z1-yOo"/>
-                        <outlet property="LabelTimer" destination="aFe-qX-ss2" id="8eU-Rl-szD"/>
+                        <outlet property="buttonReStartOutlet" destination="IKH-Ek-Y4Q" id="QWx-d7-QpE"/>
+                        <outlet property="buttonStartOutlet" destination="yxq-lO-rCb" id="7F7-hc-LUZ"/>
+                        <outlet property="buttonStopOutlet" destination="4xv-4I-jfC" id="1lR-7g-2dE"/>
+                        <outlet property="labelAllTime" destination="Sei-eA-lbW" id="iAW-BB-fxB"/>
+                        <outlet property="labelPersent" destination="OJp-72-IBS" id="aSu-ER-uMt"/>
+                        <outlet property="labelSumTime" destination="DcU-cF-UqF" id="d7d-z1-yOo"/>
+                        <outlet property="labelTimer" destination="aFe-qX-ss2" id="8eU-Rl-szD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -205,13 +205,13 @@
     </scenes>
     <resources>
         <namedColor name="ButtonClick">
-            <color red="0.2336005945755868" green="0.32717833929386875" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.23399999737739563" green="0.32699999213218689" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="ButtonColor">
-            <color red="0.3868026364776197" green="0.56949568728620781" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.38699999451637268" green="0.5690000057220459" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="TimerColor">
-            <color red="1" green="0.29027564195237632" blue="0.2633550134062097" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.28999999165534973" blue="0.2630000114440918" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
