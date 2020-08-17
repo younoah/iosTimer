@@ -180,7 +180,7 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" name="BackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Cu6-Sy-cUg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Cdp-xx-fwW"/>
                             <constraint firstItem="Cu6-Sy-cUg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="w1V-Iw-gqU"/>
@@ -189,9 +189,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="buttonReSetOutlet" destination="rC8-Hg-FtT" id="IIH-y7-Gcf"/>
                         <outlet property="buttonReStartOutlet" destination="IKH-Ek-Y4Q" id="QWx-d7-QpE"/>
                         <outlet property="buttonStartOutlet" destination="yxq-lO-rCb" id="7F7-hc-LUZ"/>
                         <outlet property="buttonStopOutlet" destination="4xv-4I-jfC" id="1lR-7g-2dE"/>
+                        <outlet property="buttonTimeSetOutlet" destination="yby-NK-OQj" id="DpS-Aw-hY8"/>
                         <outlet property="labelAllTime" destination="Sei-eA-lbW" id="iAW-BB-fxB"/>
                         <outlet property="labelPersent" destination="OJp-72-IBS" id="aSu-ER-uMt"/>
                         <outlet property="labelSumTime" destination="DcU-cF-UqF" id="d7d-z1-yOo"/>
@@ -204,6 +206,9 @@
         </scene>
     </scenes>
     <resources>
+        <namedColor name="BackgroundColor">
+            <color red="0.35199999809265137" green="0.35199999809265137" blue="0.35199999809265137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="ButtonClick">
             <color red="0.23399999737739563" green="0.32699999213218689" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
