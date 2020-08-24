@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8DCC071D24F2BCB400D9D63C /* SetTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCC071C24F2BCB400D9D63C /* SetTimeViewController.swift */; };
 		8DFC65A524CFEE3C00BEA860 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFC65A424CFEE3C00BEA860 /* AppDelegate.swift */; };
 		8DFC65A724CFEE3C00BEA860 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFC65A624CFEE3C00BEA860 /* SceneDelegate.swift */; };
 		8DFC65A924CFEE3C00BEA860 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFC65A824CFEE3C00BEA860 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8DCC071C24F2BCB400D9D63C /* SetTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetTimeViewController.swift; sourceTree = "<group>"; };
 		8DFC65A124CFEE3C00BEA860 /* TiTi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TiTi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DFC65A424CFEE3C00BEA860 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DFC65A624CFEE3C00BEA860 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				8DFC65A424CFEE3C00BEA860 /* AppDelegate.swift */,
 				8DFC65A624CFEE3C00BEA860 /* SceneDelegate.swift */,
 				8DFC65A824CFEE3C00BEA860 /* ViewController.swift */,
+				8DCC071C24F2BCB400D9D63C /* SetTimeViewController.swift */,
 				8DFC65AA24CFEE3C00BEA860 /* Main.storyboard */,
 				8DFC65AD24CFEE3C00BEA860 /* Assets.xcassets */,
 				8DFC65AF24CFEE3C00BEA860 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DCC071D24F2BCB400D9D63C /* SetTimeViewController.swift in Sources */,
 				8DFC65A924CFEE3C00BEA860 /* ViewController.swift in Sources */,
 				8DFC65A524CFEE3C00BEA860 /* AppDelegate.swift in Sources */,
 				8DFC65A724CFEE3C00BEA860 /* SceneDelegate.swift in Sources */,

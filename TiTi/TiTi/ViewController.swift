@@ -215,8 +215,8 @@ class ViewController: UIViewController {
     // MARK:- 저장데이터 메서드
     // 저장되어 있는 시간을 불러오는 메서드
     func getTimeDate() {
-        intSeconds = 3000
-        intAllTimes = 28800
+        intSeconds =  UserDefaults.standard.value(forKey: "second") as? Int ?? 3000
+        intAllTimes = UserDefaults.standard.value(forKey: "allTime") as? Int ?? 28800
         intSum = 0
     }
 }
