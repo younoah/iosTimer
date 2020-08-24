@@ -34,17 +34,17 @@ class SetTimeViewController: UIViewController {
             action: #selector(textFieldDidChange(textField:)),
             for: UIControl.Event.editingChanged)
         allTimeMinuteTextField.addTarget(
-        self,
-        action: #selector(textFieldDidChange(textField:)),
-        for: UIControl.Event.editingChanged)
+            self,
+            action: #selector(textFieldDidChange(textField:)),
+            for: UIControl.Event.editingChanged)
         timerHourTextField.addTarget(
-        self,
-        action: #selector(textFieldDidChange(textField:)),
-        for: UIControl.Event.editingChanged)
+            self,
+            action: #selector(textFieldDidChange(textField:)),
+            for: UIControl.Event.editingChanged)
         timerMinuteTextField .addTarget(
-        self,
-        action: #selector(textFieldDidChange(textField:)),
-        for: UIControl.Event.editingChanged)
+            self,
+            action: #selector(textFieldDidChange(textField:)),
+            for: UIControl.Event.editingChanged)
     }
     
     @objc func textFieldDidChange(textField: UITextField) {
@@ -90,7 +90,7 @@ class SetTimeViewController: UIViewController {
         allTime = allTimeHour * 3600 + allTimeMinute * 60
         second = timerHour * 3600 + timerMinute * 60
         UserDefaults.standard.set(second, forKey: "second")
-        UserDefaults.standard.set(allTime, forKey: "allTime ")
+        UserDefaults.standard.set(allTime, forKey: "allTime")
         self.dismiss(animated: true, completion: nil)
     }
 }
