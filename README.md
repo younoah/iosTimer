@@ -1,6 +1,4 @@
-# ios_study
+## 타이머 iOS 앱
 
-## 타이머 기능 추가
-
-![타이머 기능 추가](/Users/uno/Desktop/dev_projects/iOS/ios_study/appScreenShot/타이머 기능 추가.png)
+<img width="757" alt="timer" src="https://user-images.githubusercontent.com/41064875/104457015-d179df00-55ec-11eb-9ce8-0ced9fbe6a2b.png">
 
